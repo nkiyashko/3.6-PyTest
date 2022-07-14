@@ -10,5 +10,5 @@ def button_is_present(browser):
         return False
 
 
-def test_feedback(browser):
+def test_cart_button_exist(browser):
     assert button_is_present(browser) == True, "Button is not found"
